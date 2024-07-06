@@ -8,6 +8,14 @@ class Product:
         self.quantity = quantity
         self.brand = brand
 
+    def __str__(self):
+        return f"ID: {self.product_id}, Nombre: {self.product_name}, Categoría: {self.category}, Descripción: {self.description}, Precio: {self.price}, Cantidad: {self.quantity}, Marca: {self.brand}"
+
+
+
+    
+
+    
     
 
     
